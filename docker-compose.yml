@@ -2,7 +2,7 @@ services:
   app:
     build: .
     ports:
-      - "8080:8080"
+      - "14219:14219"
     env_file:
       - .env
     volumes:

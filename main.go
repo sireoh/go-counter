@@ -71,8 +71,8 @@ func main() {
 
 	http.HandleFunc("/update/", handleUpdate)
 
-	log.Printf("GOTH App running on :8080 (TZ: %s)", userLoc.String())
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Printf("GOTH App running on :14219 (TZ: %s)", userLoc.String())
+	log.Fatal(http.ListenAndServe(":14219", nil))
 }
 
 func getCounters() []Counter {

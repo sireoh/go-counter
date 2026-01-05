@@ -33,7 +33,7 @@ RUN mkdir -p /app/data
 COPY --from=builder /app/server .
 
 # Expose the port
-EXPOSE 8080
+EXPOSE 14219
 
 # Run the app
 CMD ["./server"]
