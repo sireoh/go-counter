@@ -1,0 +1,31 @@
+# Binaries and executable files
+bin/
+server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# SQLite database and data folder
+# We ignore the actual data so your local DB doesn't end up in Git
+data/
+*.db
+*.db-journal
+*.db-wal
+
+# Go dependencies
+vendor/
+go.sum
+
+# Templ generated files 
+# (Optional: Some prefer to commit these, but usually you generate them during build)
+*_templ.go
+
+# Docker and environment
+.env
+.docker-desktop/
+
+# OS specific files
+.DS_Store
+Thumbs.db
